@@ -1,0 +1,108 @@
+body,html{
+  margin: 0;
+  padding: 0;
+}
+nav ul{
+  margin: 0px;
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  background-color: brown;
+}
+nav ul li a{
+  display: block;
+  border: 2px solid;
+  padding: 1em 1em;
+  margin: 1em;
+  text-decoration: none;
+  border-radius: 30px;
+  color: black;
+}
+.hero{
+  background-image: url("Pictures/roti.png");
+  width: 100%;
+  height: auto;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+  aspect-ratio: 16/7;
+  object-fit: cover;
+}
+.restaurant-name{
+  font-family: Imapact,stencil,fantasy;
+  font-size: 5em;
+  color: blanchedalmond;
+  text-shadow: 10px 5px 10px black,-2px -1px brown;
+}
+body{
+  background-color: blanchedalmond;
+}
+h2{
+  font-family: monotype corsiva,comic sans MS,cursive;
+  font-size: 5em;
+  text-align: center;
+}
+.appetizers,.mains,.desserts,.drinks{
+  display: flex;
+  flex-direction: row;
+  margin-top: 0px;
+}
+.menu-item img{
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  margin-left: -40px;
+}
+.menu-item{
+  position: relative;
+}
+.menu-item .price{
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 24px;
+  background-color: gold;
+  padding: 10px;
+  border-radius: 10px;
+  padding: 15px;
+}
+.description{
+  background-color: brown;
+  padding: 10px;
+  font-size: 1.5em;
+  margin-inline-start: -1.9em;
+  border-radius: 4px;
+  border-top: 0px;
+  position: absolute;
+  bottom:0px;
+}
+h4{
+  font-size: 24px;
+  font-weight: bold;
+}
+h5{
+  font-size: 22px;
+  font-style: italic;
+}
+h6{
+  font-size: 18px;
+}
+.contacts{
+  display: flex;
+  justify-content: center;
+  border: 1px solid brown;
+  background-color: brown;
+  aspect-ratio: 16/6;
+}
+p{
+  text-align: center;
+  font-size: 22px;
+}
+h3{
+  text-align: center;
+  font-size: 28px;
+}
